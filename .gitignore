@@ -1,0 +1,43 @@
+# Generated training outputs and downloaded inputs.
+/raw/
+/data/
+/datasets/
+/models/
+/model/
+/runs/
+/outputs/
+/logs/
+/checkpoint/
+/checkpoints/
+/validation_log/
+/wandb/
+/artifacts/
+/.venv/
+/.env/
+.env
+.env.*
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.parquet
+*.jsonl
+*.log
+*.zip
+*.sha256
+slurm-*.out
+
+# Checkpoint serialization is source code, not a saved model. Override any
+# broader checkpoint-directory ignore rule inherited from a parent checkout.
+!/verl/verl/utils/checkpoint/
+!/verl/verl/utils/checkpoint/*.py
+!/verl/verl/third_party/torch/distributed/checkpoint/
+!/verl/verl/third_party/torch/distributed/checkpoint/*.py

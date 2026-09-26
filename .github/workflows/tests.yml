@@ -1,0 +1,35 @@
+name: CPU tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 20
+    env:
+      HF_HUB_OFFLINE: "1"
+      WANDB_MODE: disabled
+      CUDA_VISIBLE_DEVICES: ""
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+            scripts/setup_env.sh
+      - name: Install CPU dependencies
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          bash scripts/setup_env.sh --cpu
+      - name: Run unit tests
+        run: .venv/bin/python -m pytest -q tests

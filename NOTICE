@@ -1,0 +1,19 @@
+LSPD and LSPD-RB
+Copyright 2026 the LSPD contributors.
+
+This source release contains modifications to VERL 0.7.0.dev, including
+least-square policy distillation, replay-buffer training, teacher/student EOS
+alignment, benchmark preparation, launch utilities, and evaluation reporting.
+The LSPD source code is distributed under the Apache License, Version 2.0.
+
+VERL is developed by its upstream contributors, including ByteDance Ltd.
+and/or its affiliates. Its Apache 2.0 license is retained at verl/LICENSE.
+Original copyright and license notices remain in the vendored source files.
+The implementation also builds on the OPD codebase (thunlp/OPD) and the
+TTRL/VERL entropy-recipe math grader. The grader retains embedded Apache 2.0
+and MIT notices for NVIDIA, Microsoft, OpenAI, Dan Hendrycks, and PRIME.
+These notices continue to apply to their respective portions of the code.
+
+The manuscript in paper/ is included as research documentation. The software
+license does not assign a new license to the manuscript. Downloaded datasets,
+pretrained models, and dependencies retain their own licenses and terms.

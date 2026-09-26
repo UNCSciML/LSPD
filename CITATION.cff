@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: If you use LSPD or LSPD-RB, please cite the accompanying manuscript.
+type: software
+title: LSPD and LSPD-RB
+abstract: Least Square Policy Distillation and its replay-buffer variant for LLM reasoning.
+authors:
+- family-names: Li
+  given-names: Shangzhe
+  affiliation: University of North Carolina at Chapel Hill
+- family-names: Yang
+  given-names: Yuxiao
+  affiliation: University of North Carolina at Chapel Hill
+- family-names: Yu
+  given-names: Tianrun
+  affiliation: Brigham Young University
+- family-names: Zhao
+  given-names: Kaixiang
+  affiliation: Brigham Young University
+- family-names: Wang
+  given-names: Xiaoyun
+  affiliation: NVIDIA
+- family-names: Killian
+  given-names: Taylor W.
+  affiliation: Brigham Young University
+- family-names: Zhang
+  given-names: Weitong
+  affiliation: University of North Carolina at Chapel Hill
+license: Apache-2.0
+preferred-citation:
+  type: unpublished
+  title: 'An RL View of OPD: Least Square Policy Distillation for Sample-Efficient
+    LLM Reasoning'
+  authors:
+  - family-names: Li
+    given-names: Shangzhe
+    affiliation: University of North Carolina at Chapel Hill
+  - family-names: Yang
+    given-names: Yuxiao
+    affiliation: University of North Carolina at Chapel Hill
+  - family-names: Yu
+    given-names: Tianrun
+    affiliation: Brigham Young University
+  - family-names: Zhao
+    given-names: Kaixiang
+    affiliation: Brigham Young University
+  - family-names: Wang
+    given-names: Xiaoyun
+    affiliation: NVIDIA
+  - family-names: Killian
+    given-names: Taylor W.
+    affiliation: Brigham Young University
+  - family-names: Zhang
+    given-names: Weitong
+    affiliation: University of North Carolina at Chapel Hill
+  notes: Manuscript included in the paper/ directory.
