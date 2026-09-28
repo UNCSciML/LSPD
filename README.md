@@ -34,7 +34,6 @@ for Sample-Efficient LLM Reasoning</h1>
   <a href="#prepare-training-and-evaluation-data">Data</a> &nbsp;·&nbsp;
   <a href="#training">Training</a> &nbsp;·&nbsp;
   <a href="#evaluation">Evaluation</a> &nbsp;·&nbsp;
-  <a href="#results-reported-in-the-paper">Results</a> &nbsp;·&nbsp;
   <a href="#citation">Citation</a>
 </p>
 
