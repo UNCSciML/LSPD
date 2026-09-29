@@ -21,14 +21,14 @@ for Sample-Efficient LLM Reasoning</h1>
 </p>
 
 <p>
-  <a href="paper/Maximum_Entropy_Quadratic_Policy_Distillation_for_Efficient_LLM_Reasoning%20%286%29.pdf"><img src="https://img.shields.io/badge/Paper-PDF-B31B1B" alt="Paper PDF"></a>
+  <a href="https://arxiv.org/abs/2609.35505"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B" alt="Paper on arXiv"></a>
   <img src="https://img.shields.io/badge/Python-3.12-3776AB" alt="Python 3.12">
   <img src="https://img.shields.io/badge/CUDA-12.8-76B900" alt="CUDA 12.8">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-2563EB" alt="License: Apache 2.0"></a>
 </p>
 
 <p>
-  <a href="paper/Maximum_Entropy_Quadratic_Policy_Distillation_for_Efficient_LLM_Reasoning%20%286%29.pdf"><strong>Paper</strong></a> &nbsp;·&nbsp;
+  <a href="https://arxiv.org/abs/2609.35505"><strong>Paper</strong></a> &nbsp;·&nbsp;
   <a href="#overview">Overview</a> &nbsp;·&nbsp;
   <a href="#environment-setup">Setup</a> &nbsp;·&nbsp;
   <a href="#prepare-training-and-evaluation-data">Data</a> &nbsp;·&nbsp;
@@ -309,10 +309,11 @@ verl/                         Modified VERL training runtime
 Please cite the accompanying manuscript when using this implementation. Machine-readable metadata is provided in [CITATION.cff](CITATION.cff).
 
 ```bibtex
-@unpublished{li_lspd,
-  title  = {An {RL} View of {OPD}: Least Square Policy Distillation for Sample-Efficient {LLM} Reasoning},
-  author = {Li, Shangzhe and Yang, Yuxiao and Yu, Tianrun and Zhao, Kaixiang and Wang, Xiaoyun and Killian, Taylor W. and Zhang, Weitong},
-  note   = {Manuscript included with the LSPD source release}
+@article{li2026rlview,
+  title={An RL View of OPD: Least Square Policy Distillation for Sample-Efficient LLM Reasoning},
+  author={Shangzhe Li and Yuxiao Yang and Tianrun Yu and Kaixiang Zhao and Xiaoyun Wang and Taylor W. Killian and Weitong Zhang},
+  year={2026},
+  journal={arXiv preprint 2609.35505},
 }
 ```
 
